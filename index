@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="coverflow.css" />
+    <link rel="stylesheet" href="Mystyle 2.css" />
+    <script src="jquery.min.js"></script>
+    
+    <meta name="viewport" content="width=device-width" />
+</head>
+<style>
+    table {
+        width: 67%;
+        border-collapse: collapse;
+        margin: 20px auto;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: green;
+    }
+    img {
+        width: 200px; 
+        height: auto; 
+    }
+</style>
+<body>
+    <div class="wrap" id="coverflow1">
+
+        <div class="scrollbar">
+            <div class="handle">
+                <div class="mousearea"></div>
+            </div>
+        </div>
+
+        <div class="frame coverflow">
+            <ul class="clearfix">
+                <li></li>
+            </ul>
+        </div>
+
+        <ul class="pages"></ul>
+
+    </div>
+
+    <div>
+        <img align="right" src="Freddie.jpg"><br><br>
+        <p><br>
+
+        <hr width="1000">
+        <a href="autobazzar.html">Home</a> | <a href="aboutus.html">About the car</a> | <a href="finddealer.html"> Find a Dealer </a>
+        <hr width="100">
+        <h1> The best of cars</h1>
+        <p>
+            <ul class="navbar">
+                <li>Home</li>
+                <li>About the car</li>
+                <li>Find a Dealer</li>
+            </ul>
+            <table border="5">
+                <tr>
+                    <td><img src="C:\Users\user\Desktop\Freddie's assignment\Ferrari.jpg"></td>
+                    <td><img src="C:\Users\user\Desktop\Freddie's assignment\Audi Q7.jpg"></td>
+                    <td><img src="C:\Users\user\Desktop\Freddie's assignment\BMW i7.jpg"></td>
+                </tr>
+                <tr>
+                    <td>Ferrari</td>
+                    <td>Audi Q7</td>
+                    <td>BMW i7</td>
+                </tr>
+                <tr>
+                    <td><img src="C:\Users\user\Desktop\Freddie's assignment\Audi Q5.jpg"></td>
+                    <td><img src="C:\Users\user\Desktop\Freddie's assignment\G wagon.jpeg"></td>
+                    <td><img src="C:\Users\user\Desktop\Freddie's assignment\Lexus LX570.jpeg"></td>
+                </tr>
+                <tr>
+                    <td>Audi Q5</td>
+                    <td>Mercedes Benz G Wagon</td>
+                    <td>Lexus LX570</td>
+                </tr>
+            </table>
+    </div>
+    <script src="sly.min.js"></script>
+    <script src="coverflow 2.js"></script>
+</body>
+</html>
